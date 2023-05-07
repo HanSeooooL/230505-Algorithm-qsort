@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A4AAF0FB2A050E4A00D2F08D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4AAF0FA2A050E4A00D2F08D /* main.c */; };
+		A4AAF1162A060A0500D2F08D /* quicksort.c in Sources */ = {isa = PBXBuildFile; fileRef = A4AAF1152A060A0500D2F08D /* quicksort.c */; };
+		A4AAF1182A060A2800D2F08D /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A4AAF1172A060A2800D2F08D /* test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		A4AAF0F72A050E4A00D2F08D /* 230505 Algorithm qsort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "230505 Algorithm qsort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AAF0FA2A050E4A00D2F08D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4AAF1142A060A0500D2F08D /* quicksort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quicksort.h; sourceTree = "<group>"; };
+		A4AAF1152A060A0500D2F08D /* quicksort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quicksort.c; sourceTree = "<group>"; };
+		A4AAF1172A060A2800D2F08D /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		A4AAF0F92A050E4A00D2F08D /* 230505 Algorithm qsort */ = {
 			isa = PBXGroup;
 			children = (
+				A4AAF1172A060A2800D2F08D /* test.c */,
 				A4AAF0FA2A050E4A00D2F08D /* main.c */,
+				A4AAF1142A060A0500D2F08D /* quicksort.h */,
+				A4AAF1152A060A0500D2F08D /* quicksort.c */,
 			);
 			path = "230505 Algorithm qsort";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AAF1182A060A2800D2F08D /* test.c in Sources */,
 				A4AAF0FB2A050E4A00D2F08D /* main.c in Sources */,
+				A4AAF1162A060A0500D2F08D /* quicksort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
