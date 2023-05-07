@@ -13,6 +13,7 @@ static void filesave(char name[], int *a, int n);
 
 void TC1_Twonumber(void)
 {
+    printf("TC1_Twonumber: \n");
     int *arr;
     int n = 0;
     
@@ -21,7 +22,7 @@ void TC1_Twonumber(void)
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
     printf("\n");
-    
+    printf("정렬 후\n");
     q_sort(arr, 0, n - 1);
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
@@ -30,6 +31,7 @@ void TC1_Twonumber(void)
 
 void TC2_fiftynumber(void)
 {
+    printf("TC2_fiftynumber: \n");
     int *arr;
     int n = 0;
     
@@ -38,7 +40,7 @@ void TC2_fiftynumber(void)
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
     printf("\n");
-    
+    printf("정렬 후\n");
     q_sort(arr, 0, n - 1);
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
@@ -47,6 +49,7 @@ void TC2_fiftynumber(void)
 
 void TC3_hundrednumber(void)
 {
+    printf("TC2_hundrednumber: \n");
     int *arr;
     int n = 0;
     
@@ -55,7 +58,7 @@ void TC3_hundrednumber(void)
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
     printf("\n");
-    
+    printf("정렬 후\n");
     q_sort(arr, 0, n - 1);
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
